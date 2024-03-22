@@ -1,0 +1,49 @@
+{
+  "name": "nisialiquam",
+  "version": "1.0.0",
+  "description": "Simple CLI app to fetch the latest multiple crypto token prices in various currencies",
+  "main": "index.js",
+  "bin": {
+    "tokenprice": "index.js"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@lib": "lib",
+    "@helpers": "helpers",
+    "@utils": "utils"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattWunsch/nisialiquam.git"
+  },
+  "keywords": [
+    "inventore",
+    "voluptatem",
+    "token",
+    "repellendus",
+    "cli",
+    "maiores",
+    "bitcoin",
+    "porro",
+    "ethereum",
+    "eth",
+    "atque",
+    "dgx"
+  ],
+  "author": "JuniorDooley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattWunsch/nisialiquam.git/issues"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "module-alias": "^2.2.2",
+    "node-fetch": "^2.6.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
